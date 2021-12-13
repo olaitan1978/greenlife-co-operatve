@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body class="bod">
+    <div class="container">
+    <div class="sen">Enter User's Name: <input id="name" type="text" placeholder="Enter Your User's Name"></div>
+    <div class="sen">Enter password: <input id="pass" type="password" placeholder="Enter Your Password"></div><br>
+
+    <div><button id="buty">CLICK HERE</button></div><br>
+</div>
+
+
+<script>
+    
+    let butti= document.getElementById("buty")
+    function mani(){
+       
+        let nome= document.getElementById("name").value
+        let passt= document.getElementById("pass").value
+
+        let user= "olaitan"
+        let passd=1234
+
+        if(nome==user && passt==passd){
+        window.open("index.html")
+        }else{
+            alert("YOU HAVE ENTERED A WRONG PASSWORD OR A WRONG USER'S NAME. THANK YOU")
+        }
+        
+              
+    }
+    butti.addEventListener("click",mani)
+</script>
+</body>
+</html>

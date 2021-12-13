@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+html{
+    text-align: center;
+    background-image: url(images/cloud.jpg);
+}
+.gren1{
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    height: 25px;
+    font-size: larger;
+    background-color: whitesmoke;
+}
+.gren{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#borty{
+    height: 40px;
+    color: blue;
+    font-size: xx-large;
+    background-color: yellow;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid;
+}
+ .container{
+        display: flex;
+        flex-direction: column;
+        border: black 9px solid;
+        margin: 20%;
+        align-items: center;
+        background-color: teal;
+        width: 100%;
+      
+ }
+ .sen{
+     margin: 12px;
+     font-size: large;
+
+    
+ }
+ .bod{
+     background: blue;
+ }
+ html{
+     background: burlywood;
+ }
+ #buty{
+     height: 60px;
+     width: 150px;
+     font-weight: bolder;
+     background-color: violet;
+     font-size: 20px;
+ }
